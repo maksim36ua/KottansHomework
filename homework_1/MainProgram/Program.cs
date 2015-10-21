@@ -9,8 +9,8 @@ namespace MainProgram
 {
     public class CeasarCipher
     {
-        private int[] alphabet = Enumerable.Range(33, 94).ToArray();
-        private int[] modifiedAlphabet = new int[94];
+        private readonly int[] alphabet = Enumerable.Range(33, 94).ToArray();
+        private readonly int[] modifiedAlphabet = new int[94];
 
         public CeasarCipher(int offset)
         {
