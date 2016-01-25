@@ -8,7 +8,8 @@ namespace Battleship
 {
     public class Cruiser : Boat
     {
-        public Cruiser(int x, int y, Direction direction = Direction.Horizontal) : base(x, y, direction)
+
+        public Cruiser(int x, int y, Direction direction = Direction.Horizontal) : base (x, y, direction)
         {
         }
     }
